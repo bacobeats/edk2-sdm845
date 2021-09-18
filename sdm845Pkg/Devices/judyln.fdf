@@ -532,16 +532,16 @@ APRIORI DXE {
   INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   INF MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
   INF MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-  # INF RuleOverride = ACPITABLE sdm845Pkg/AcpiTables/AcpiTables.inf
+  # INF RuleOverride = ACPITABLE sdm845Pkg/FCKACPI/FCKACPI.inf
 
   FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {   
-    SECTION RAW = sdm845Pkg/AcpiTables/testing/DBG2.aml
-    SECTION RAW = sdm845Pkg/AcpiTables/845/DSDT.aml
-    SECTION RAW = sdm845Pkg/AcpiTables/testing/MADT.aml
-    SECTION RAW = sdm845Pkg/AcpiTables/testing/FADT.aml
-    SECTION RAW = sdm845Pkg/AcpiTables/testing/GTDT.aml
-    SECTION RAW = sdm845Pkg/AcpiTables/testing/IORT.aml
-    SECTION RAW = sdm845Pkg/AcpiTables/testing/PPTT.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/testing/DBG2.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/judyln/DSDT.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/testing/MADT.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/testing/FADT.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/testing/GTDT.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/testing/IORT.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/testing/PPTT.aml
     SECTION UI = "AcpiTables"
   }
 
