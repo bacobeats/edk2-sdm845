@@ -295,8 +295,8 @@ APRIORI DXE {
   }
 
   FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
-    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/845/ButtonsDxe/ButtonsDxe.depex
-    SECTION PE32 = sdm845Pkg/FCKBINARY/845/ButtonsDxe/ButtonsDxe.efi
+    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.depex
+    SECTION PE32 = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.efi
     SECTION UI = "ButtonsDxe"
   }
 
@@ -486,8 +486,8 @@ APRIORI DXE {
   }
 
   FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
-    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/845/ButtonsDxe/ButtonsDxe.depex
-    SECTION PE32 = sdm845Pkg/FCKBINARY/845/ButtonsDxe/ButtonsDxe.efi
+    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.depex
+    SECTION PE32 = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.efi
     SECTION UI = "ButtonsDxe"
   }
 
@@ -536,7 +536,7 @@ APRIORI DXE {
 
   FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {   
     SECTION RAW = sdm845Pkg/FCKACPI/testing/DBG2.aml
-    SECTION RAW = sdm845Pkg/FCKACPI/judyln/DSDT.aml
+    SECTION RAW = sdm845Pkg/FCKACPI/Beryllium/DSDT.aml
     SECTION RAW = sdm845Pkg/FCKACPI/testing/MADT.aml
     SECTION RAW = sdm845Pkg/FCKACPI/testing/FADT.aml
     SECTION RAW = sdm845Pkg/FCKACPI/testing/GTDT.aml
