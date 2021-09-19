@@ -1,4 +1,4 @@
-#
+y#
 #  Copyright (c) 2018, Linaro Limited. All rights reserved.
 #
 #  This program and the accompanying materials
@@ -295,8 +295,8 @@ APRIORI DXE {
   }
 
   FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
-    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.depex
-    SECTION PE32 = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.efi
+    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/judyln/ButtonsDxe/ButtonsDxe.depex
+    SECTION PE32 = sdm845Pkg/FCKBINARY/judyln/ButtonsDxe/ButtonsDxe.efi
     SECTION UI = "ButtonsDxe"
   }
 
@@ -486,8 +486,8 @@ APRIORI DXE {
   }
 
   FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
-    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.depex
-    SECTION PE32 = sdm845Pkg/FCKBINARY/Beryllium/ButtonsDxe/ButtonsDxe.efi
+    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/judyln/ButtonsDxe/ButtonsDxe.depex
+    SECTION PE32 = sdm845Pkg/FCKBINARY/judyln/ButtonsDxe/ButtonsDxe.efi
     SECTION UI = "ButtonsDxe"
   }
 
