@@ -12,8 +12,8 @@
 !include sdm845Pkg/sdm845Pkg.dsc
 
 [PcdsFixedAtBuild.common]
-  # System Memory (5GB)
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x15AE00000
+  # System Memory (3GB)
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0xC0000000
 
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2242
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
