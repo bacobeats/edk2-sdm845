@@ -12,15 +12,9 @@
 !include sdm845Pkg/sdm845Pkg.dsc
 
 [PcdsFixedAtBuild.common]
-  # System Memory (5GB)
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x15AE00000
+  # System Memory (3GB)
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0xC0000000
 
-  #gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9D469780
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2246
-
-  #uncomment section underneath and comment out the above section to use full display, including the notch
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2246|UINT32|0x0000a405
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
 
