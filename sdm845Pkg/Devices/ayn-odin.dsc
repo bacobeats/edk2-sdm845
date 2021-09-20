@@ -15,8 +15,8 @@
   GCC:*_*_AARCH64_CC_FLAGS = -DAB_SLOTS_SUPPORT=1
 
 [PcdsFixedAtBuild.common]
-  # System Memory (8GB)
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x15AE00000
+  # System Memory (3GB)
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0xC0000000
 
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
