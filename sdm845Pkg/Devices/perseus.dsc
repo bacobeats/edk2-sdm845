@@ -15,8 +15,8 @@
   GCC:*_*_AARCH64_CC_FLAGS = -DXIAOMI_PIL_FIXED=1 -DDISPLAY_DPI=403 -DENABLE_SIMPLE_INIT
 
 [PcdsFixedAtBuild.common]
-  # System Memory (5GB)
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x15AE00000
+  # System Memory (3GB)
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0xC0000000
 
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
