@@ -15,8 +15,8 @@
   GCC:*_*_AARCH64_CC_FLAGS = -DMEMORY_8G=1
 
 [PcdsFixedAtBuild.common]
-  # System Memory (7GB)
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x1E0000000
+  # System Memory (3GB)
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0xC0000000
 
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+  gsdm845PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|3120
