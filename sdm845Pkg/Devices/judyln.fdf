@@ -219,12 +219,6 @@ APRIORI DXE {
     SECTION UI = "ClockDxe"
   }
 
-  FILE DRIVER = 1B52138D-3FA3-4E50-B958-20887353F809 {
-    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/845/CPRDxe/CPRDxe.depex
-    SECTION PE32 = sdm845Pkg/FCKBINARY/845/CPRDxe/CPRDxe.efi
-    SECTION UI = "CPRDxe"
-  }
-
   FILE DRIVER = AF9763A2-033B-4109-8E17-56A98D380C92 {
     SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/845/DALTLMM/DALTLMM.depex
     SECTION PE32 = sdm845Pkg/FCKBINARY/845/DALTLMM/DALTLMM.efi
@@ -410,12 +404,6 @@ APRIORI DXE {
     SECTION UI = "ClockDxe"
   }
 
-  FILE DRIVER = 1B52138D-3FA3-4E50-B958-20887353F809 {
-    SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/845/CPRDxe/CPRDxe.depex
-    SECTION PE32 = sdm845Pkg/FCKBINARY/845/CPRDxe/CPRDxe.efi
-    SECTION UI = "CPRDxe"
-  }
-
   FILE DRIVER = AF9763A2-033B-4109-8E17-56A98D380C92 {
     SECTION DXE_DEPEX = sdm845Pkg/FCKBINARY/845/DALTLMM/DALTLMM.depex
     SECTION PE32 = sdm845Pkg/FCKBINARY/845/DALTLMM/DALTLMM.efi
@@ -532,7 +520,7 @@ APRIORI DXE {
   INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   INF MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
   INF MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-  # INF RuleOverride = ACPITABLE sdm845Pkg/FCKACPI/FCKACPI.inf
+  # INF RuleOverride = ACPITABLE sdm845Pkg/AcpiTables/AcpiTables.inf
 
   FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {   
     SECTION RAW = sdm845Pkg/FCKACPI/testing/DBG2.aml
@@ -568,7 +556,7 @@ APRIORI DXE {
   INF ShellPkg/DynamicCommand/TftpDynamicCommand/TftpDynamicCommand.inf
 !endif #$(INCLUDE_TFTP_COMMAND)
 
-  INF  sdm845Pkg/FCKBINARY/845/UsbfnMsdApp/UsbfnMsdApp.inf
+  INF  sdm845Pkg/Binary/845/UsbfnMsdApp/UsbfnMsdApp.inf
 
   #
   # Bds
